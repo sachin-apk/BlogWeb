@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="home-container flex">
+    <h1>Welcome To Our blogs</h1>
+    <p>Here you can find various blogs as per your Interest</p>
+    <p>To find more <a href="{% url "post_list" %}">Click Here</a></p>
+</div>
+{% endblock content %}
